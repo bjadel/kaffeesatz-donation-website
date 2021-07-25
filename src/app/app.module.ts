@@ -9,6 +9,7 @@ import { PrivacyComponent } from './page/privacy/privacy.component';
 import { DefaultHeaderComponent } from './header/default-header/default-header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NotfoundComponent } from './page/notfound/notfound.component';
+import { HomeComponent } from './page/home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NotfoundComponent } from './page/notfound/notfound.component';
     DonateComponent,
     PrivacyComponent,
     DefaultHeaderComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
