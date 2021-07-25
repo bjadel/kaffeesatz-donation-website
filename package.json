@@ -1,6 +1,6 @@
 {
   "name": "kaffeesatz-donation-website",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -22,6 +22,7 @@
     "@angular/router": "~10.0.7",
     "@ng-bootstrap/ng-bootstrap": "^7.0.0",
     "bootstrap": "^4.5.0",
+    "caniuse-lite": "^1.0.30001247",
     "core-js": "^3.6.5",
     "rxjs": "~6.6.2",
     "tslib": "^2.0.0",
@@ -32,9 +33,9 @@
     "@angular/cli": "~10.0.5",
     "@angular/compiler-cli": "~10.0.7",
     "@angular/language-service": "~10.0.7",
-    "@types/node": "~14.0.27",
     "@types/jasmine": "~3.5.12",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~14.0.27",
     "codelyzer": "~6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.2",

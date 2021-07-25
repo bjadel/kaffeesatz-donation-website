@@ -1,0 +1,82 @@
+:host {
+  background-color: #666;
+  display: block;
+  min-height: 100vh;
+}
+
+.card {
+  display:inline-block;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  vertical-align: text-bottom;
+  z-index: 1;
+  min-height: 27rem;
+  width: 20rem;
+}
+
+.card-img-top {
+  height: 12rem;
+}
+
+.card-footer {
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.social-menu {
+	display: flex;
+	list-style-type: none;
+}
+
+.social-menu i {
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	font-size: 25px;
+	margin-right: 10px;
+	transition: all 0.2s ease-in-out;
+	display: flex;
+	justify-content: center;
+}
+
+.social-menu i:before {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.social-menu a {
+	text-decoration: none;
+}
+
+.fa-facebook {
+	background:#3b5998
+}
+
+.fa-envelope {
+	background:#555
+}
+
+.fa-linkedin {
+	background:#007bb6
+}
+
+.fa-twitter {
+	background:#00aced
+}
+
+.fa-instagram {
+	background:#3f729b
+}
+
+.fa-youtube {
+	background:#c4302b
+}
+
+.social-menu i:hover {
+	opacity: .7;
+	border-radius: 0;
+}
