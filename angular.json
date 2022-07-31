@@ -135,5 +135,8 @@
       }
     }
   },
-  "defaultProject": "kaffeesatz-donation-website"
+  "defaultProject": "kaffeesatz-donation-website",
+  "cli": {
+    "analytics": false
+  }
 }

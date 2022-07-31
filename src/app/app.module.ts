@@ -12,6 +12,7 @@ import { NotfoundComponent } from './page/notfound/notfound.component';
 import { HomeComponent } from './page/home/home.component';
 import { EventsComponent } from './page/events/events.component';
 import { VereinComponent } from './page/verein/verein.component';
+import { DefaultComponent } from './footer/default/default.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { VereinComponent } from './page/verein/verein.component';
     NotfoundComponent,
     HomeComponent,
     EventsComponent,
-    VereinComponent
+    VereinComponent,
+    DefaultComponent
   ],
   imports: [
     BrowserModule,
