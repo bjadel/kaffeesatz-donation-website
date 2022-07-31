@@ -10,6 +10,8 @@ import { DefaultHeaderComponent } from './header/default-header/default-header.c
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NotfoundComponent } from './page/notfound/notfound.component';
 import { HomeComponent } from './page/home/home.component';
+import { EventsComponent } from './page/events/events.component';
+import { VereinComponent } from './page/verein/verein.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HomeComponent } from './page/home/home.component';
     PrivacyComponent,
     DefaultHeaderComponent,
     NotfoundComponent,
-    HomeComponent
+    HomeComponent,
+    EventsComponent,
+    VereinComponent
   ],
   imports: [
     BrowserModule,
