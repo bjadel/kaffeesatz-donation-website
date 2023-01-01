@@ -161,7 +161,6 @@
   <div class="row">
 
     <div class="col-lg-6 my-3">
-      <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.8146528777515!2d12.937589616473446!3d50.8345969795303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7466320c6719d%3A0xd9d8a2584bc74e5b!2sKaffeeSatz!5e0!3m2!1sen!2sde!4v1655675250194!5m2!1sen!2sde" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
       <a href="https://maps.google.com/?q=kaffeesatz+chemnitz" target="_blank"><img class="map" src="assets/map.png"/></a>
     </div>
 
@@ -181,58 +180,46 @@
         </div>
         <div class="row px-5">
 
-          <div class="col-4 py-2" style="font-size: 20px;">
-            <a href="mailto:info@kaffeesatz-chemnitz.de?subject=Kontakt">
-				  <span class="fa-stack fa-2x">
-					<i class="fa-solid fa-circle fa-stack-2x" style="color:#555;"></i>
-					<i class="fa-solid fa-envelope fa-stack-1x" style="color:#fff;"></i>
-				  </span>
-            </a>
+          <div class="col-4 py-2 socialmedia">
+            <fa-stack (click)="openUrl('mailto:info@kaffeesatz-chemnitz.de?subject=Kontakt')">
+              <fa-icon [icon]="faCircle" stackItemSize="2x"></fa-icon>
+              <fa-icon [icon]="faEnvelope" [inverse]="true" stackItemSize="1x"></fa-icon>
+            </fa-stack>
           </div>
 
-          <div class="col-4 py-2" style="font-size: 20px;">
-            <a href="https://discord.gg/gereBJT">
-				  <span class="fa-stack fa-2x">
-					<i class="fa-solid fa-circle fa-stack-2x" style="color:#5865f2;"></i>
-					<i class="fa-brands fa-discord fa-stack-1x" style="color:#fff;"></i>
-				  </span>
-            </a>
+          <div class="col-4 py-2 socialmedia">
+            <fa-stack (click)="openUrl('https://discord.gg/gereBJT')">
+              <fa-icon [icon]="faCircle" stackItemSize="2x" class="discord"></fa-icon>
+              <fa-icon [icon]="faDiscord" [inverse]="true" stackItemSize="1x"></fa-icon>
+            </fa-stack>
           </div>
 
-          <div class="col-4 py-2" style="font-size: 20px;">
-            <a href="mailto:info@kaffeesatz-chemnitz.de?subject=Kontakt">
-				  <span class="fa-stack fa-2x">
-					<i class="fa-solid fa-circle fa-stack-2x" style="color:#1877f2;"></i>
-					<i class="fa-brands fa-facebook-f fa-stack-1x" style="color:#fff;"></i>
-				  </span>
-            </a>
+          <div class="col-4 py-2 socialmedia">
+            <fa-stack (click)="openUrl('https://www.facebook.com/KaffeesatzChemnitz')">
+              <fa-icon [icon]="faCircle" stackItemSize="2x" class="facebook"></fa-icon>
+              <fa-icon [icon]="faFacebook" [inverse]="true" stackItemSize="1x"></fa-icon>
+            </fa-stack>
           </div>
 
-          <div class="col-4 py-2" style="font-size: 20px;">
-            <a href="mailto:info@kaffeesatz-chemnitz.de?subject=Kontakt">
-				  <span class="fa-stack fa-2x">
-					<i class="fa-solid fa-circle fa-stack-2x" style="color:#c32aa3;"></i>
-					<i class="fa-brands fa-instagram fa-stack-1x" style="color:#fff;"></i>
-				  </span>
-            </a>
+          <div class="col-4 py-2 socialmedia">
+            <fa-stack (click)="openUrl('https://www.instagram.com/kulturkneipe.kaffeesatz')">
+              <fa-icon [icon]="faCircle" stackItemSize="2x" class="instagram"></fa-icon>
+              <fa-icon [icon]="faInstagram" [inverse]="true" stackItemSize="1x"></fa-icon>
+            </fa-stack>
           </div>
 
-          <div class="col-4 py-2" style="font-size: 20px;">
-            <a href="mailto:info@kaffeesatz-chemnitz.de?subject=Kontakt">
-				  <span class="fa-stack fa-2x">
-					<i class="fa-solid fa-circle fa-stack-2x" style="color:#1da1f2;"></i>
-					<i class="fa-brands fa-twitter fa-stack-1x" style="color:#fff;"></i>
-				  </span>
-            </a>
+          <div class="col-4 py-2 socialmedia">
+            <fa-stack (click)="openUrl('https://twitter.com/kaffeesatz_c')">
+              <fa-icon [icon]="faCircle" stackItemSize="2x" class="twitter"></fa-icon>
+              <fa-icon [icon]="faTwitter" [inverse]="true" stackItemSize="1x"></fa-icon>
+            </fa-stack>
           </div>
 
-          <div class="col-4 py-2" style="font-size: 20px;">
-            <a href="mailto:info@kaffeesatz-chemnitz.de?subject=Kontakt">
-				  <span class="fa-stack fa-2x">
-					<i class="fa-solid fa-circle fa-stack-2x" style="color:#2b90d9;"></i>
-					<i class="fa-brands fa-mastodon fa-stack-1x" style="color:#fff;"></i>
-				  </span>
-            </a>
+          <div class="col-4 py-2 socialmedia">
+            <fa-stack (click)="openUrl('https://beta.birdsite.live/@kaffeesatz_c')">
+              <fa-icon [icon]="faCircle" stackItemSize="2x" class="mastodon"></fa-icon>
+              <fa-icon [icon]="faMastodon" [inverse]="true" stackItemSize="1x"></fa-icon>
+            </fa-stack>
           </div>
 
         </div>

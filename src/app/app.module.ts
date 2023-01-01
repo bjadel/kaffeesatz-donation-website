@@ -13,6 +13,7 @@ import { HomeComponent } from './page/home/home.component';
 import { EventsComponent } from './page/events/events.component';
 import { VereinComponent } from './page/verein/verein.component';
 import { DefaultComponent } from './footer/default/default.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DefaultComponent } from './footer/default/default.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
