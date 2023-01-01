@@ -15,6 +15,8 @@ import { VereinComponent } from './page/verein/verein.component';
 import { DefaultComponent } from './footer/default/default.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +34,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
