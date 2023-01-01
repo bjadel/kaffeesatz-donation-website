@@ -6,7 +6,7 @@
       Wir sind der Kaffeesatz e.V. und betreiben die gleichnamige Kulturkneipe auf dem Chemnitzer Sonnenberg. Es erwarten dich Lesungen, Vorleseabende, Theater, Konzerte, philosophische und historische Debatten, Ausstellungen, Workshops, Spieleabende, Quizshows und noch vieles mehr. Dazu gibt es natürlich Unmengen Bücher.
     </p>
     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-      <a href="#contact"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Finde uns!</button></a>
+      <a (click)="onClick('contact')"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Finde uns!</button></a>
       <a href="https://podcast.kaffeesatz-chemnitz.de/" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Zum Podcast</button></a>
     </div>
   </div>
@@ -165,7 +165,7 @@
       <a href="https://maps.google.com/?q=kaffeesatz+chemnitz" target="_blank"><img class="map" src="assets/map.png"/></a>
     </div>
 
-    <div class="col-lg-6 my-3">
+    <div class="col-lg-6 my-3" id="contact">
       <div class="container">
         <div class="row">
           <div class="col">
