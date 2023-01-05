@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
+import { faEnvelope, faCircle, faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+import { faDiscord, faFacebook, faInstagram, faTwitter, faMastodon } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +9,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  faEnvelope = faEnvelope;
+  faQuoteLeft = faQuoteLeft;
+  faCircle = faCircle;
+  faDiscord = faDiscord;
+  faFacebook = faFacebook;
+  faInstagram = faInstagram;
+  faTwitter = faTwitter;
+  faMastodon = faMastodon;
+  constructor(private viewportScroller: ViewportScroller) {
 
-  constructor() { }
+  }
 
   ngOnInit(): void {
+  }
+
+  public onClick(elementId: string): void {
+    this.viewportScroller.scrollToAnchor(elementId);
+  }
+
+  public openUrl(url: string): void {
+    window.open(url);
   }
 
 }

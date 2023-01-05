@@ -1,28 +1,229 @@
-<div class="card">
-  <img class="card-img-top" src="assets/logo-256-90.webp" alt="Über uns">
-  <div class="card-body">
-    <p>Wir sind der Verein Kaffeesatz e.V. und betreiben die gleichnamige Kulturkneipe auf dem Chemnitzer Sonnenberg. Es erwarten Euch Lesungen, Vorleseabende, Theater, Konzerte, philosophische und historische Debatten, Ausstellungen, Workshops, Spieleabende, Quizshows und noch vieles mehr. Dazu gibt es natürlich Unmengen Bücher.</p>
-    <p>Wir suchen immer nach neuen Mitstreitern mit frischen Ideen. Hast Du Lust auf Organisieren, Handwerkeln oder Öffentlichkeitsarbeit? Oder spülst für Dein Leben gern ab? Dann schau doch mal bei uns vorbei. Jedes einzelne Mitglied bestimmt den Kurs des Vereins mit und jeder von uns kann sich im "Kaffeesatz" nach Lust und Laune ausprobieren.</p>
-    <br/>
-  </div>
-  <div class="card-footer">
-    <small class="text-muted">Wir sind das KaffeeSatz.</small>
+<div class="px-4 py-5 text-center intro">
+  <img class="d-block mx-auto mb-4" src="assets/logo-128-70.png" alt="" height="57">
+  <h1 class="display-5 fw-bold">Willkommen im KaffeeSatz</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">
+      Wir sind der Kaffeesatz e.V. und betreiben die gleichnamige Kulturkneipe auf dem Chemnitzer Sonnenberg. Es erwarten dich Lesungen, Vorleseabende, Theater, Konzerte, philosophische und historische Debatten, Ausstellungen, Workshops, Spieleabende, Quizshows und noch vieles mehr. Dazu gibt es natürlich Unmengen Bücher.
+    </p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <a (click)="onClick('contact')"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Finde uns!</button></a>
+      <a href="https://podcast.kaffeesatz-chemnitz.de/" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Zum Podcast</button></a>
+    </div>
   </div>
 </div>
-<div class="card">
-  <img class="card-img-top" src="assets/kontact.svg" alt="Bankkonto">
-  <div class="card-body">
-    <h5 class="card-title">Kontakt</h5>
-    <p class="card-text">Du kannst uns auf verschiedene Art & Weise ansprechen. Am besten direkt im <a href="http://m.osmtools.de/0nN7431wogJ0nN6L31wou4" target="_blank">KaffeeSatz</a> oder auf digitalem Wege.</p>
-    <ul class="social-menu">
-      <li><a href="mailto:info@kaffeesatz-chemnitz.de?subject=Kontakt"><i class="far fa-envelope"></i></a></li>
-      <li><a href="https://www.facebook.com/KaffeesatzChemnitz/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-      <li><a href="https://twitter.com/kaffeesatz_c" target="_blank"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="https://www.instagram.com/kaffeesatz.kulturkneipe" target="_blank"><i class="fab fa-instagram"></i> </a></li>
-    </ul>
-    <br/>
+
+<!--SHOWCASE-->
+
+<section class="py-3 showcase">
+
+  <!--CARDS-->
+
+  <div class="container">
+    <div class="row gx-3">
+      <h2 class="px-4 py-2 text-center">Was dich bei uns erwartet</h2>
+      <p class="px-5 py-2 text-center text-secondary">Wir sind vielseitig und immer offen für neue Ideen. Wenn du eigene Projekte umsetzen möchtest, sprich uns gern an!</p>
+    </div>
+    <div class="row gx-3">
+
+
+      <div class="col-lg-4 my-3">
+        <div style="background: white; height: 100%;">
+          <img src="assets/konzerte.jpg" class="img-fluid mx-auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+          <div class="p-4">
+            <h3>Konzerte</h3>
+            <p>Du hast Lust Musik hautnah zu erleben? Oder du machst selbst Musik und suchst eine Auftrittsmöglichkeit? Auf unserer kleinen Bühne spielen regelmäßig Musiker:innen und Bands aus der Region aber auch von weit her angereist. Und das beste: Eintritt frei, um Hutspende wird gebeten.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 my-3">
+        <div style="background: white; height: 100%;">
+          <img src="assets/warhammer.jpg" class="img-fluid mx-auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+          <div class="p-4">
+            <h3>Zusammentische</h3>
+            <p>
+              Unsere zahlreichen Zusammentische warten auf dich! Tausche dich mit anderen über Filme, Serien oder Fotografie aus oder spiel ein Brettspiel, Rollenspiel oder deine Ukuele. Nix für dich dabei aber du hast eine gute Idee? Dann bieten wir dir einen Raum, dich zu verwirklichen und Gleichgesinnte zu finden!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 my-3">
+        <div style="background: white; height: 100%;">
+          <img src="assets/mikrofon.JPG" class="img-fluid mx-auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+          <div class="p-4">
+            <h3>Zeig was du kannst</h3>
+            <p>Auch Ausprobieren wird bei uns groß geschrieben: Du willst deine Stand-Up-Show, Musik, Malereien oder andere Talente öffentlich zeigen? Oder hast ein Thema, eine Runde oder eine Idee, die bis jetzt noch keinen Ort finden konnte? Wir helfen dir bei uns ein Event auf die Beine zu stellen oder bieten Raum für deine Idee.
+</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 my-3">
+        <div style="background: white; height: 100%;">
+          <img src="assets/quatschen.jpg" class="img-fluid mx-auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+          <div class="p-4">
+            <h3>Einfach nur quatschen</h3>
+            <p>
+              Natürlich kannst du auch einfach vorbeikommen und mit deinen Kumpel:innen, mit uns oder mit Wildfrenden bei einer Limo oder einem Bier die Seele baumeln lassen. Stell dir das KaffeeSatz wie ein großes WG-Zimmer mit einer Bar drin vor.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 my-3">
+        <div style="background: white; height: 100%;">
+          <img src="assets/podcast.jpg" class="img-fluid mx-auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+          <div class="p-4">
+            <h3>Auch für unterwegs</h3>
+            <p>Ob es uns auch als Podcast gibt? Na selbstverständlich! Du kannst den Kaffeepod unter podcast.kaffeesatz-chemnitz.de, Spotify, Podcast-Addict und weiteren Podcast-Apps kostenfrei anhören. Wir reden mit Künstler:innen, Vereinen und Institutionen, über interessante sowie nerdige Themen oder stellen unsere Mitglieder vor. Hast du Lust selbst einmal im Kaffeepod zu hören zu sein? Dann sprich uns gerne an.
+</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 my-3">
+        <div style="background: white; height: 100%;">
+          <img src="assets/mitmachen.jpg" class="img-fluid mx-auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+          <div class="p-4">
+            <h3>Mach mit!</h3>
+            <p>
+              Wir suchen immer nach neuen Mitstreitern mit frischen Ideen. Hast Du Lust auf Organisieren, Handwerkeln oder Öffentlichkeitsarbeit? Oder spülst für Dein Leben gern ab? Dann schau doch mal bei uns vorbei. Jedes einzelne Mitglied bestimmt den Kurs des Vereins mit und jeder von uns kann sich im KaffeeSatz nach Lust und Laune ausprobieren.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
   </div>
-  <div class="card-footer">
-    <small class="text-muted">Sprich uns an!</small>
+
+</section>
+
+<section class="py-3">
+  <div class="container">
+    <!--Quote-->
+    <div class="row px-5 py-5 text-center">
+      <figure>
+        <blockquote class="blockquote mb-4">
+          <p>
+            <fa-icon [icon]="faQuoteLeft" class="quote-left"></fa-icon>
+            <span class="font-italic">Das KaffeeSatz ist wie eine Blume. Ich gehe hinein und bin schlecht in Vergleichen.</span>
+          </p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Ein KaffeeSatz-Kunde
+        </figcaption>
+      </figure>
+    </div>
+
+    <!--IMAGE CAROUSEL-->
+    <div class="row">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="assets/img-carousel/fenster.jpg" class="d-block w-100 img-fluid" preserveAspectRatio="xMidYMid sclice" alt="...">
+          </div>
+
+          <div class="carousel-item ">
+            <img src="assets/img-carousel/pnp.jpg" class="d-block w-100 img-fluid" preserveAspectRatio="xMidYMid sclice" alt="...">
+          </div>
+
+          <div class="carousel-item ">
+            <img src="assets/img-carousel/blue-concert.jpg" class="d-block w-100 img-fluid" preserveAspectRatio="xMidYMid sclice" alt="...">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--CONTACT-->
+
+<div class="container my-2">
+  <div class="row">
+
+    <div class="col-lg-6 my-3">
+      <a href="https://maps.google.com/?q=kaffeesatz+chemnitz" target="_blank"><img class="map" src="assets/map.png"/></a>
+    </div>
+
+    <div class="col-lg-6 my-3" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Kontakt</h2>
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-12">
+            <p>Du kannst uns auf verschiedene Art & Weise ansprechen. Am besten direkt im KaffeeSatz in der <strong>Zietenstraße 40</strong>.
+              Mit dem Bus erreichst du uns über die Haltestelle <strong>Zietenstraße</strong>, mit den Linien 82, 31, oder N12.</p>
+            <p>Digital erreichst du uns auf folgenden Kanälen:.</p>
+          </div>
+        </div>
+        <div class="row px-5">
+
+          <div class="col-4 py-2 socialmedia">
+            <fa-stack (click)="openUrl('mailto:info@kaffeesatz-chemnitz.de?subject=Kontakt')">
+              <fa-icon [icon]="faCircle" stackItemSize="2x"></fa-icon>
+              <fa-icon [icon]="faEnvelope" [inverse]="true" stackItemSize="1x"></fa-icon>
+            </fa-stack>
+          </div>
+
+          <div class="col-4 py-2 socialmedia">
+            <fa-stack (click)="openUrl('https://discord.gg/gereBJT')">
+              <fa-icon [icon]="faCircle" stackItemSize="2x" class="discord"></fa-icon>
+              <fa-icon [icon]="faDiscord" [inverse]="true" stackItemSize="1x"></fa-icon>
+            </fa-stack>
+          </div>
+
+          <div class="col-4 py-2 socialmedia">
+            <fa-stack (click)="openUrl('https://www.facebook.com/KaffeesatzChemnitz')">
+              <fa-icon [icon]="faCircle" stackItemSize="2x" class="facebook"></fa-icon>
+              <fa-icon [icon]="faFacebook" [inverse]="true" stackItemSize="1x"></fa-icon>
+            </fa-stack>
+          </div>
+
+          <div class="col-4 py-2 socialmedia">
+            <fa-stack (click)="openUrl('https://www.instagram.com/kulturkneipe.kaffeesatz')">
+              <fa-icon [icon]="faCircle" stackItemSize="2x" class="instagram"></fa-icon>
+              <fa-icon [icon]="faInstagram" [inverse]="true" stackItemSize="1x"></fa-icon>
+            </fa-stack>
+          </div>
+
+          <div class="col-4 py-2 socialmedia">
+            <fa-stack (click)="openUrl('https://twitter.com/kaffeesatz_c')">
+              <fa-icon [icon]="faCircle" stackItemSize="2x" class="twitter"></fa-icon>
+              <fa-icon [icon]="faTwitter" [inverse]="true" stackItemSize="1x"></fa-icon>
+            </fa-stack>
+          </div>
+
+          <div class="col-4 py-2 socialmedia">
+            <fa-stack>
+              <fa-icon [icon]="faCircle" stackItemSize="2x" class="mastodon"></fa-icon>
+              <fa-icon [icon]="faMastodon" [inverse]="true" stackItemSize="1x"></fa-icon>
+            </fa-stack>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
 </div>
