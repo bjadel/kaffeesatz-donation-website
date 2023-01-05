@@ -8,8 +8,8 @@ import { Events } from './events';
 export class EventService {
 
   //eventUrl = "https://www.kaffeesatz-chemnitz.de/events.php";
-  eventUrl = "https://preview.kaffeesatz-chemnitz.de/events.php";
-  //eventUrl = "http://localhost:4200/assets/events.php";
+  //eventUrl = "https://preview.kaffeesatz-chemnitz.de/events.php";
+  eventUrl = "http://localhost:4200/assets/events.php";
 
   constructor(private http: HttpClient) {}
 
