@@ -66,8 +66,23 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "development": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.prod.ts",
+                  "with": "src/environments/environment.ts"
+                }
+              ],
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
             }
-          }
+          },
+          "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
@@ -77,6 +92,9 @@
           "configurations": {
             "production": {
               "browserTarget": "kaffeesatz-donation-website:build:production"
+            },
+            "development": {
+              "browserTarget": "kaffeesatz-donation-website:build:development"
             }
           }
         },
