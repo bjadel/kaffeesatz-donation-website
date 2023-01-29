@@ -42,12 +42,12 @@
 }
 
 .socialmedia {
-  font-size: 3rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
 .disabledsocialmedia {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .discord {
@@ -75,10 +75,14 @@
   color: #0D6EFD;
 }
 
+.quote-right {
+  margin-left: 0.7rem;
+  color: #0D6EFD;
+}
+
 ngb-carousel {
     max-width: 100%;
     min-width: 100%;
-    margin: 50px auto;
 }
 ngb-carousel img {
     width: 100%;

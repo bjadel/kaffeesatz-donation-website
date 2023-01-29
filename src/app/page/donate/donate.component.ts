@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-donate',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./donate.component.scss']
 })
 export class DonateComponent implements OnInit {
+
+  faQuoteLeft = faQuoteLeft;
+  faQuoteRight = faQuoteRight;
 
   constructor() { }
 
