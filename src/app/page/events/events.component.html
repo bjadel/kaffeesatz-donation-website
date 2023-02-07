@@ -13,7 +13,7 @@
           <!--<small class="text-muted">3 days ago</small>-->
         </div>
         <p class="text-muted mb-2">{{event.time}}</p>
-        <p class="mb-0">{{event.description}}</p>
+        <p class="mb-0" [innerHtml]="event.description"></p>
         </a>
       </li>
     </ul>
