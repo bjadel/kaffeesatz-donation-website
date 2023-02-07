@@ -3,9 +3,9 @@
   <h1 class="display-5 fw-bold">Aktuelle Veranstaltungen</h1>
 </div>
 
-<div class="fluid">
+<div class="container">
   <div class="list-group mx-lg-5 mx-md-3 mx-2 px-md-5">
-    <ul class="no-bullets">
+    <ul *ngIf="events" class="no-bullets">
       <li *ngFor="let event of events.events; index as i; first as isFirst">
         <a href="{{event.url}}" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between my-1">
