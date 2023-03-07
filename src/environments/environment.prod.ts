@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  eventhost: "https://preview.kaffeesatz-chemnitz.de"
 };

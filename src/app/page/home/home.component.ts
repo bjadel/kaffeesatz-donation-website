@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
-import { faEnvelope, faCircle, faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faCircle, faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 import { faDiscord, faFacebook, faInstagram, faTwitter, faMastodon } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
@@ -11,12 +11,14 @@ import { faDiscord, faFacebook, faInstagram, faTwitter, faMastodon } from '@fort
 export class HomeComponent implements OnInit {
   faEnvelope = faEnvelope;
   faQuoteLeft = faQuoteLeft;
+  faQuoteRight = faQuoteRight;
   faCircle = faCircle;
   faDiscord = faDiscord;
   faFacebook = faFacebook;
   faInstagram = faInstagram;
   faTwitter = faTwitter;
   faMastodon = faMastodon;
+
   constructor(private viewportScroller: ViewportScroller) {
 
   }

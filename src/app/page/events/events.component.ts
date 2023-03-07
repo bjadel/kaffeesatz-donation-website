@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { EventService } from '../../services/event.service';
 import { Events } from '../../services/events';
+import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-events',
@@ -9,6 +11,8 @@ import { Events } from '../../services/events';
 })
 export class EventsComponent implements OnInit {
 
+  faQuoteLeft = faQuoteLeft;
+  faQuoteRight = faQuoteRight;
   events:Events;
 
   constructor(private eventService: EventService) { }
