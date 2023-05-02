@@ -14,6 +14,7 @@ import { EventsComponent } from './page/events/events.component';
 import { VereinComponent } from './page/verein/verein.component';
 import { DefaultComponent } from './footer/default/default.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 
 import { HttpClientModule } from '@angular/common/http';
 
@@ -35,7 +36,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     NgbModule,
     FontAwesomeModule,
-    HttpClientModule
+    HttpClientModule,
+    LeafletModule
   ],
   providers: [],
   bootstrap: [AppComponent]
