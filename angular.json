@@ -167,7 +167,6 @@
       }
     }
   },
-  "defaultProject": "kaffeesatz-donation-website",
   "cli": {
     "analytics": false
   }
