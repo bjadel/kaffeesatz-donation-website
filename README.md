@@ -1,5 +1,7 @@
 # KaffeesatzDonationWebsite
 
+Die Webseite wird unter der Organisation KaffeeSatz-e-V weiter entwickelt. Das dazugehörige Repository ist unter folgender URL zu finden: `https://github.com/KaffeeSatz-e-V/kaffeesatz-website`
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
 ## Development server
